@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from './Home/Home';
 import Products from './Products/Products';
 import Orders from './Orders/Orders';
+import OrderDetail from './Orders/OrderDetail';
 import "./App.css";
 
 
@@ -52,6 +53,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/catalog" element={<Products />} />
                 <Route path="orders" element={<Orders />}></Route>
+                <Route path="/order/:id" element={<OrderDetail />}></Route>
               </Routes>
             </main>
             <footer>&copy; 2023 The Girls In Tech</footer>
