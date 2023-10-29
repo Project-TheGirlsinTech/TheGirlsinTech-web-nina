@@ -3,6 +3,7 @@ import Home from './Home/Home';
 import Products from './Products/Products';
 import Orders from './Orders/Orders';
 import OrderDetail from './Orders/OrderDetail';
+import PaymentScreeen from './Payment/Payment';
 import "./App.css";
 
 
@@ -54,6 +55,7 @@ function App() {
                 <Route path="/catalog" element={<Products />} />
                 <Route path="orders" element={<Orders />}></Route>
                 <Route path="/order/:id" element={<OrderDetail />}></Route>
+                <Route path="payment" element={<PaymentScreeen />}/>
               </Routes>
             </main>
             <footer>&copy; 2023 The Girls In Tech</footer>

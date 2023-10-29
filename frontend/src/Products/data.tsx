@@ -13,6 +13,6 @@ export default {
         price: 60,
         brand: 'Nike',
         rating: 4.5,
-        numberOfReviews: 10,  
+        numberOfReviews: 10,
     }]
 }
