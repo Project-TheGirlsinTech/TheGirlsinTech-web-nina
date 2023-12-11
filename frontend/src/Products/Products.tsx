@@ -22,7 +22,7 @@ const [products, setProducts]: [Product[], (products: Product[]) => void]
 
 // effect hook
 useEffect(() => {
-    axios.get<Product[]>("https://localhost:3000/catalog",
+    axios.get<Product[]>("thegirlsintech-api.azurewebsites.net",
     {
         headers: {
             "Content-Type": "application/json",
